@@ -1,0 +1,23 @@
+{
+  "name": "song_cypress-academy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fifkapetr/song_cypress-academy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fifkapetr/song_cypress-academy/issues"
+  },
+  "homepage": "https://github.com/fifkapetr/song_cypress-academy#readme",
+  "devDependencies": {
+    "cypress": "^12.17.3"
+  }
+}
