@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/fifkapetr/song_cypress-academy#readme",
   "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
     "cypress": "^12.17.3"
   }
 }
