@@ -18,7 +18,7 @@ describe("Fluent Login tests", () => {
     new LoginPage().clickLostPassword().clickBackButton();
   });
 
-  it.only("Alert not exist after open pmtool", () => {
+  it("Alert not exist after open pmtool", () => {
     new LoginPage().alertNotExist();
   });
 });
