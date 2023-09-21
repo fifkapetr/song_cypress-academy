@@ -4,6 +4,8 @@ export class Homepage {
   constructor() {
     this.profileButton = "#user_dropdown > .dropdown-toggle";
     this.logoffButton = "#logout > a";
+    this.appTitle = ".navbar-brand";
+    cy.get(this.appTitle).should("be.visible");
   }
 
   clickProfile() {

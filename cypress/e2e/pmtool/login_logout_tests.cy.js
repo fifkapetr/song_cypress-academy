@@ -5,12 +5,13 @@ describe("Login and Logout Tests", () => {
   it("Login to pmtool", () => {
     const pmtool = new LoginPage();
     pmtool.openPmtool();
+    cy.log("Login to pmtool");
     pmtool.typeUsername("fifka_petr");
     pmtool.typePassword("Tredgate2023");
     pmtool.clickSubmit();
   });
 
-  it.only("Login and Logout test", () => {
+  it("Login and Logout test", () => {
     const pmtool = new LoginPage();
     const homepage = new Homepage();
     pmtool.openPmtool();
