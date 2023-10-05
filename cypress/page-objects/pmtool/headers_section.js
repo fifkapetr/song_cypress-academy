@@ -1,7 +1,9 @@
 import { LoginPage } from "./login_page";
+import { MenuSection } from "./menu_section";
 
-export class HeaderSection {
+export class HeaderSection extends MenuSection {
   constructor() {
+    super();
     this.profileButton = "#user_dropdown > .dropdown-toggle";
     this.logoffButton = "#logout > a";
   }
